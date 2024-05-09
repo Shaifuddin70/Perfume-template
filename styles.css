@@ -11,8 +11,8 @@ body {
   border: 1px solid rgb(197, 186, 186);
   background-color: aliceblue;
   border-radius: 10px;
-  
-  
+  border-color: none;
+  box-shadow: 10px 10px 50px  rgb(53, 115, 56);
 }
 
 h1 {
@@ -21,8 +21,7 @@ h1 {
   font-weight: weight;
   font-style: normal;
   font-weight: bolder;
-  line-height: 90%!important;
-
+  line-height: 90% !important;
 }
 .perfume {
   width: 50%;
@@ -55,7 +54,6 @@ h1 {
 }
 
 .img-box img {
- 
   border-radius: 10px 0 0 10px;
   object-fit: cover;
 }
@@ -74,7 +72,6 @@ h3 {
   letter-spacing: 0.2em;
   opacity: 0.8;
 }
-.details{
+.details {
   padding: 20px;
 }
-
