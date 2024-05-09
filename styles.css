@@ -1,44 +1,80 @@
-* {
-    box-sizing: border-box;
-  }
+body {
+  background-color: rgb(231, 216, 203) !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-box {
+  width: 600px;
+  height: auto;
+  border: 1px solid rgb(197, 186, 186);
+  background-color: aliceblue;
+  border-radius: 10px;
   
-  body {
-    margin: 0;
-    font-family: sans-serif;
-    background: #f5f6f7;
-  }
   
-  .header {
-    text-align: center;
-    text-transform: uppercase;
-    padding: 32px;
-    background-color: #0a0a23;
-    color: #fff;
-    border-bottom: 4px solid #fdb347;
-  }
-  
-  .gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 20px 10px;
-  }
-  
-  .gallery img {
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .gallery::after {
-    content: "";
-    width: 350px;
-  }
-  
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 90%!important;
+
+}
+.perfume {
+  width: 50%;
+  align-items: start;
+}
+.button {
+  background-color: rgb(61, 129, 104);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  margin-top: -10px;
+}
+.button img {
+  width: auto;
+  height: 20px;
+  margin-top: -5px;
+}
+.button p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.price {
+  font-family: "Reddit Sans Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  margin-top: -10px;
+}
+
+.img-box img {
+ 
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+
+.new-price {
+  font-size: 30px;
+  margin-top: 0px;
+  padding-right: 15px;
+  color: rgb(61, 129, 104);
+  font-weight: bolder;
+}
+.old-price {
+  margin-top: 5px;
+}
+h3 {
+  letter-spacing: 0.2em;
+  opacity: 0.8;
+}
+.details{
+  padding: 20px;
+}
+
